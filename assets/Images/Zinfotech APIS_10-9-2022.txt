@@ -1,0 +1,119 @@
+=============Zonicinfotech APIS=============================
+	  ===Home Slider List====
+
+URL: https://rajabookingonline.com/fundapp/api/home-slider
+Required Parameters: NA
+
+Response: 
+		{
+    "status": 1,
+    "message": "Success",
+    "Data": [
+         
+            "title": "Slider 3",
+            "image": "edu_image1.jpg",
+            "slider_type": "center"
+        },
+        
+    ],
+    "url": "https://rajabookingonline.com/fundapp/public/admin/uploads/slider_image"
+}
+
+=======================================================================================
+	    ===Course List====
+
+URL: https://rajabookingonline.com/fundapp/api/course-list
+Required Parameters: NA
+
+Response: 
+		{
+    "status": 1,
+    "message": "Success",
+    "Data": [
+        {
+            "name": "RAS PRE 7 DAYS  BOOSTER PACKAGE ",
+            "details": "NA",
+            "amount": "NA",
+            "status": "1",
+            "image": "edu_category2.jpg",
+            "date": "10-09-2022"
+        },
+        
+    ],
+     "url": "https://rajabookingonline.com/fundapp/public/admin/uploads/categorie"
+}
+
+=======================================================================================
+     ===Course Details====
+
+URL: https://rajabookingonline.com/fundapp/api/course-details
+Required Parameters: course_id:14
+
+Response: 
+		{
+    "status": 1,
+    "message": "Success",
+   "Data": [
+        {
+            "name": "SCHOOL LECTURER 2021",
+            "description": "NA",
+            "amount": "NA",
+            "status": "1",
+            "image": "edu_categorie1.jpg",
+            "date": "10-09-2022"
+        }
+    ],
+    "url": "https://rajabookingonline.com/fundapp/public/admin/uploads/categorie"
+}
+
+=======================================================================================
+              ===Subject List====
+
+URL: https://rajabookingonline.com/fundapp/api/subject-list
+Required Parameters: NA
+
+Response: 
+		{
+    "status": 1,
+    "message": "Success",
+    "Data": [
+        {
+            "category_id": "5",
+            "name": "SOLVED TEST PAPERS  WITH EXPLANATION ",
+            "position": "1",
+            "description": "<p>PAPER 2</p>\r\n",
+            "amount": "NA",
+            "status": "1",
+            "image": "edu_subcategory1.jpg",
+            "date": "15-09-2021"
+        },
+        
+    ],
+   "url": "https://rajabookingonline.com/fundapp/public/admin/uploads/subcategory"
+}
+
+
+=======================================================================================
+     ===Subject Details====
+
+URL: https://rajabookingonline.com/fundapp/api/subject-details
+Required Parameters: subject_id:5
+
+Response: 
+		{
+    "status": 1,
+    "message": "Success",
+   "Data": [
+        {
+            "category_id": "5",
+            "name": "SOLVED TEST PAPERS  WITH EXPLANATION ",
+            "position": "1",
+            "description": "<p>PAPER 2</p>\r\n",
+            "amount": "NA",
+            "status": "1",
+            "image": "edu_subcategory1.jpg",
+            "date": "15-09-2021"
+        }
+    ],
+    "url": "https://rajabookingonline.com/fundapp/public/admin/uploads/subcategory"
+}
